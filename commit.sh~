@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# a script to automate git
+
+echo "Please Enter the files you wish to commit"
+read -m files
+git add "$files"
+echo "Please enter the commit message"
+read -m mess
+git commit -m "$mess"
+git push
