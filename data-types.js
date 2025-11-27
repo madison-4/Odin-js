@@ -13,3 +13,4 @@ let strFloat = "3.14";
 console.log(+strInt);   // Output: 42 (Number)
 console.log(+strFloat); // Output: 3.14 (Number)
 console.log(typeof +strInt); // Output: "number"
+console.log(typeof(strInt));
