@@ -1,0 +1,9 @@
+#!/usr/bin/node
+// a script to practoce data types
+
+const string = "The revolution will not be televised";
+console.log(string);
+console.log(string.charCodeAt(0))
+let text = "Hello World \uD800";
+let result = text.toWellFormed();
+console.log(result);
